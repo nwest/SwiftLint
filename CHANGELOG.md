@@ -22,6 +22,12 @@
 * Improve performance of `TrailingNewlineRule`.  
   [Keith Smiley](https://github.com/keith)
 
+* Configure SwiftLint via a YAML file:
+  Supports `disabled_rules`, `included` and `excluded`.
+  Pass a configuration file path to `--config`, defaults to `.swiftlint.yml`.  
+  [JP Simard](https://github.com/jpsim)
+  [#3](https://github.com/realm/SwiftLint/issues/3)
+
 ##### Bug Fixes
 
 * None.
